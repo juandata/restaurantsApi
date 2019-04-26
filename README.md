@@ -452,8 +452,8 @@ You can delet a restaurant adding the _id as an url parameter.
             "hash": "vTQ0aIRAIU+cPjG5bKHpE2uPytk=",
             "keyId": "6667985509278547969"
         }
+      }
     }
-}
     ````
 * **Error Response:**
   
@@ -475,7 +475,8 @@ You can delet a restaurant adding the _id as an url parameter.
               "keyId": "6667985509278547969"
           }
       }
-  }."````
+  }."
+  ````
 
   * **Code:** 200 OK
 
