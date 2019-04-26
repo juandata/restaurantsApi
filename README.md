@@ -71,8 +71,9 @@ have in count traffic at the moment.
   There is not success response in the form of a body as this request is in the client side, the response should be your lat and log pos using HTML5 Geolocation.
 
  ----
+# ENDPOINTS
 
- # /listRestaurants
+# /listRestaurants
 You can get all the restaurants or filter via rating value. 
 
 * **URL**
