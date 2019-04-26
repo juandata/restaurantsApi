@@ -3,6 +3,10 @@
 ## TrueLogicCodeTest
 Author: Juan Carlos Cancela / Juan David Tabares
 
+[GIT HOMEPAGE](https://github.com/juandata/restaurantsApi/)
+
+[GLITCH EDIT HOME PROJECT](https://glitch.com/edit/#!/restaurants-api)
+
 ### Description
 Develop a Rest API for restaurant/delivery, each restaurant should follow the following
 data structure:
@@ -90,7 +94,7 @@ You can get all the restaurants or filter via rating value.
   Reply with the restaurants that match the rating param:
 
   * **Code:** 200 <br />
-    **Content:** /////////
+    **Content:** Your lat, long  on the browser. *Accept location and reload if necessary.  
  
 * **Error Response:**
 
@@ -322,7 +326,7 @@ You can add an order to a restaurant and get the ETA and other useful info about
     "totalCost": 1800,
     "orderTime": "2019-04-26T06:20:13.666Z",
     "ETA": "4 days 14 hours"
-}
+    }
     ````
 * **Error Response:**
   
@@ -382,7 +386,8 @@ You can edit a restaurant, at this point you can change any data, this can be mo
 * **Error Response:**
   
   When you try to edit a restaurant with an invalid id restaurant parameter. In this case the 'nModified' property has a value of 0 items modifed. MongoDB default. 
-    ````"{
+    ````"
+    {
       "n": 0,
       "nModified": 0,
       "opTime": {
@@ -399,7 +404,8 @@ You can edit a restaurant, at this point you can change any data, this can be mo
               "keyId": "6667985509278547969"
           }
       }
-  }."````
+  }
+  ````
 
   * **Code:** 200 OK
 
@@ -475,3 +481,5 @@ You can delet a restaurant adding the _id as an url parameter.
 
 ----
 
+## Authors:
+ Juan Carlos Cancela | Juan David Tabares Arce 
