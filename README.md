@@ -386,7 +386,7 @@ You can edit a restaurant, at this point you can change any data, this can be mo
 * **Error Response:**
   
   When you try to edit a restaurant with an invalid id restaurant parameter. In this case the 'nModified' property has a value of 0 items modifed. MongoDB default. 
-    ````"
+    ````js
     {
       "n": 0,
       "nModified": 0,
@@ -458,7 +458,8 @@ You can delet a restaurant adding the _id as an url parameter.
 * **Error Response:**
   
   When you try delete a restaurant with an invalid id restaurant parameter. In this case the 'n' property has a value of 0 items modifed. MongoDB default. 
-    ````"{
+    ````
+    {
       "n": 0,
       "nModified": 0,
       "opTime": {
@@ -475,7 +476,7 @@ You can delet a restaurant adding the _id as an url parameter.
               "keyId": "6667985509278547969"
           }
       }
-  }."
+  }
   ````
 
   * **Code:** 200 OK
